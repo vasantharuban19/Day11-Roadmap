@@ -1,0 +1,57 @@
+Contents:-
+Media Queries
+Measurements
+Overflow
+
+
+ Breakpoints:-
+  Mobile devices:- 320px-480px
+  Ipads and tablets:- 481px-768px
+  Laptops:- 769px-1024px
+  large screens:-1025px-1200px
+
+=> 3 types of media queries.
+=> screens :- to display
+=> print :- to print the page
+=> speech :- screen readers
+
+syntax:- 
+@media screen/print/speech/all and(selectors){
+
+}
+selectors:- your resolution (2 types => max-width and min-width)
+
+Measurements => Absolute and relative units
+
+Absolute:- 
+
+1.cm => centimeters
+2.mm => millimeters
+3.in => inches ( 1in= 96px = 2.54cm)
+4.px => pixels (1px = 1/96th of inch)
+5.pt => points (1pt = 1/72 of inch)
+6.pc => picas(1pc = 12pt)
+
+Relative:-
+1.em => Relative to the font size of the element(2em means 2 times the size of the current font)
+2.rem => Relative to font-size of the root element.
+3.vw => Relative to the 1% of the width of the  viewports
+4.vh => Relative to the 1% of the height of the  viewports
+5.ch => Relative to the width of the "0"(zero)
+6.ex => Relative to x-height of the current font
+7.%  => relative to the parent element.
+8.vmin => Relative to the 1% of the viewports of smaller dimension
+9.vmax => Relative to the 1% of the viewports of larger dimension
+
+
+Overflow:- Property that sets the desired behaviour 
+when the content does not fit in the parent element box.
+1.hidden
+2.scroll
+3.visible
+4.clip
+5.auto
+
+
+Icons => Fontawesome https://fontawesome.com/
+Fonts => google fonts https://fonts.google.com/
